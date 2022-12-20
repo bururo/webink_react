@@ -1,11 +1,6 @@
 import React, { useContext } from 'react';
-import { AppBar } from '@mui/material/AppBar';
-import { Toolbar } from '@mui/material/Toolbar';
-import { Typography } from '@mui/material/Typography';
-import { InputBase } from '@mui/material/InputBase';
-import { styled } from '@mui/system/styled';
-import { alpha } from '@mui/material';
-import { Box } from '@mui/material/Box';
+import { AppBar, Box, Toolbar, Typography, InputBase } from '@mui/material';
+import { styled, alpha } from '@mui/material/styles';
 
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { SearchContext } from '../pages/Home';

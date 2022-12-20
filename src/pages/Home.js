@@ -1,14 +1,14 @@
-import React, { useEffect, useState, createContext } from "react";
-import { AnimeList } from "../components/AnimeList";
-import { AnimeInfo } from "../components/AnimeInfo";
-import { AddToList } from "../components/AddToList";
-import { RemoveFromList } from "../components/RemoveFromList";
-import { MuiAppBar } from "/Users/bubu/Dev/bootcamp/Projects/webink/src/components/MuiAppBar";
+import React, { useEffect, useState, createContext } from 'react';
+import { AnimeList } from '../components/AnimeList';
+import { AnimeInfo } from '../components/AnimeInfo';
+import { AddToList } from '../components/AddToList';
+import { RemoveFromList } from '../components/RemoveFromList';
+import { MuiAppBar } from '../components/MuiAppBar';
 
 export const SearchContext = createContext(null);
 
 export const Home = () => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const [animeData, setAnimeData] = useState();
   const [animeInfo, setAnimeInfo] = useState();
   const [myAnimeList, setMyAnimeList] = useState([]);
